@@ -1,0 +1,1743 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box ;
+}
+ 
+.showcase{
+    width: 1200px;
+    margin-left: 6%;
+}
+
+.one{
+    background-color: rgba(211, 211, 211, 0.774);
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+   font-family: 'Montserrat', 'sans-serif';
+   line-height: 1.7;
+}
+ 
+ul li{
+    list-style: none;
+}
+
+h1{
+    font-weight: 500;
+    margin-bottom: 0.5em;
+    letter-spacing: 0.15em;
+    font-size: 3.9rem;
+}
+ 
+.navbar a{
+    padding-bottom: 0.3rem;
+}
+
+.navbar a:hover{
+    border-bottom: 1px solid white;
+}
+
+li{
+    font-size: 1.6rem;
+    margin-bottom: 0.5em;
+    letter-spacing: 0.15em;
+}
+
+a{
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+ .navbar{ 
+    padding: 1rem;
+ }
+
+ .navbar::after{
+    content: '';
+    display: block;
+    clear: both;
+ }
+
+.header1 {
+    height: 95vh;
+    background: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5) ) , url('../IMG/header-image.jpg') ; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.navbar .list-item a,
+.navbar .logo{
+    color: white;
+}
+
+.navbar .logo{
+    float: left;
+   
+}
+
+.navbar .list-items{
+    float: right;
+    margin-top: 1rem;
+}
+
+
+.navbar .list-item{
+    display: inline-block;
+    padding: 1rem; 
+}
+      /* ################   UTILITY CLASSES  START  ############# */
+
+.bg-dark{
+    background-color: #263238;
+}
+
+.lg-heading{
+    font-size: 3.3rem;
+}     
+
+.md-heading{
+    font-size: 2.2rem;
+}
+
+.text-red{
+    color: #e63946;
+}
+
+.text-light{
+    color: #f4f4f4;
+}
+
+.text-black{
+    color: #333333;
+}
+
+.text-gray{
+   color: #555555;
+}
+
+        /* ######3######### UTILITY CLASSES END ################## */
+
+.header-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+}
+
+.header-content h1{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+.header-content p{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 0.4em 1.3em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 1em 0;
+}
+
+.btn-primary{
+    background-color: #fff;
+    border-radius: 10em;
+}
+
+.btn-secondry{
+    border: 2px solid #e63946;
+    border-radius: 1.5em;
+    color: #e63946;
+    background-color: #fff;
+}
+ /* ##################  SECTION STYLING ############ */
+
+ .showcase{
+    background-color: #ddd;
+    padding: 10rem 0;
+ }
+
+ .row{
+    height: 350px;
+    background: #fff;
+    box-shadow: 0px 0px 20px 0px #000;
+ }
+
+ .row1{
+    margin-bottom: 10rem;
+ }
+
+.row1 .img-box, 
+.row2 .text-box{
+    float: left;
+    width: 50%;
+}
+
+.row1 .text-box, 
+.row2 .img-box{
+    float: right;
+    width: 50%;
+}
+
+.row .img-box{
+    height: 100%;
+    overflow: hidden;
+}
+
+.img-box:hover img{
+    scale: 1.2;
+}
+
+.row .img-box IMG{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all ease 1s;
+}
+
+.row .text-box{
+   padding: 3rem 3rem;
+  
+}
+
+.text-box h2{
+    padding-bottom: 2rem;
+}
+
+.btn-primary:hover{
+    background-color: #ddd;
+}
+
+.btn-secondry:hover{
+    background-color: #fcf3f2;
+}
+
+.text-box p{
+    font-weight: 700;
+}
+
+.features{
+    padding: 10rem 0;
+    max-width: 1000px;
+  margin-left: 14%;
+}
+
+.box{
+    width: 33.3333333%;
+    float: left;
+    padding: 2rem;
+    text-align: center;
+}
+
+.box-1,
+.box-3{
+    background-color: #263238;
+    color: #fff;
+}
+
+.box-2{
+    background-color: #da2c3af5;
+    color: #fff;
+}
+
+.box-wrapper::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.box-wrapper{
+    box-shadow: 5px 5px 15px 0px #000;
+}
+
+.footer{
+    background: #263238;
+    color: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+}
+
+.social-media-links{
+    margin: 2rem;
+} 
+
+.ok{
+    word-spacing: 5px;
+}
+
+.social-media-links i{
+    margin: 1rem;
+}
+
+.about{
+    padding: 5rem 0;
+}
+
+.about-heading{
+    border-bottom: 6px solid #e63946;
+}
+
+.showcase2{
+    width: 1100px;
+    padding-left: 15%;
+}
+
+.para{
+    word-spacing: 4px;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.left{
+    float: left;
+    width: 50%;
+    text-align: center; 
+}
+
+.right{
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+.tick h3::before{
+    content: '\2713';
+    color: #e63946;
+    padding-right:  1rem; 
+    font-weight: bold;
+}
+
+.count-item{
+    float: left;
+    width: 25%;
+}
+
+.count{
+    margin-top: 9rem;
+    text-align: center;
+    width: 85%;
+    margin-left: 7rem;
+}
+
+.count::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.count-item span{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #e63946;
+}
+
+.cta-banner{
+    background-color: #da2c3af5;
+    color: #f4f4f4;
+    height: 7rem;
+    padding: 1.5rem;
+    box-shadow: 5px 5px 10px #000;
+    margin-left: 7rem;
+    width: 84%;
+    margin-top: 3rem;
+}
+
+.cta-banner-left{
+     width: 60%;
+     float: left;
+     padding-top: 1rem;
+}
+.cta-banner-right{
+     width: 40%;
+     float: left;
+     text-align: center;
+}
+
+.cta-banner::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.btn-cta{
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+    font-weight: 5rem;
+    font-size: 700;
+    border: 4px solid white;
+    padding: 0.3rem 2.5rem;
+    letter-spacing: 0.3rem;
+    color: #f4f4f4;
+    border-radius: 5rem;
+}
+
+.content-form{
+    padding: 5rem 0;
+    background-color: #f7f7f7;
+    width: 1100px;
+    margin-left: 10%;
+    height: 700px;
+}
+
+.form-wrapper .company-adress{
+    width: 49%;
+    float: left;
+     background-color: #fff;
+     padding: 1rem;
+}
+
+.form-wrapper .form{
+    width: 49%;
+    float: right;
+    background-color: #fff;
+    padding: 1rem;
+}
+
+.form-wrapper .company-adress i{
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.form-wrapper .company-adress h2{
+    display: inline-block;
+}
+
+.form-wrapper::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.form-wrapper .adress-group{
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+}
+
+.adress-group h3{
+    font-size: 1.2rem;
+}
+
+.form-wrapper .company-adress img{
+    max-width: 95%;
+    min-height: 35rem;
+    object-fit: cover;
+}
+.form h1{
+    content: '';
+    display: block;
+    border-bottom: 5px solid #ee4758;
+    width: 100%;
+}
+
+.form-wrapper .form label{
+  display: block;
+}
+
+.form-wrapper .form input{
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.form-wrapper .form .class-group{
+    margin-bottom: 2rem;
+}
+
+.form-wrapper .form textarea{
+    width: 100%;
+    height: 246px;
+    padding: 1rem;
+}
+
+.form-submit{
+    display: block;
+    margin: 0 auto;
+    padding: 0.5em 3em;
+    font-size: 1.8rem;
+    background: #e63946;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 3rem;
+} 
+
+.form h3{
+    margin-bottom: 1rem;
+} 
+
+.umar{
+    background-color: #f7f7f7;
+}
+
+/* ####################### MEDIA QUIRIES ########################### */
+
+@media (min-width:372px) and (max-width:384px){
+    html{
+        font-size: 50%;
+    }
+
+     .navbar .list-items,
+     .navbar .logo{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+     }
+
+     .row{
+      height:auto;
+      width: 118%;
+      text-align:center;
+     }
+
+     .showcase{
+     height: auto; 
+        width: 100%;
+        text-align: center;
+        padding-right: 8rem;
+     }
+
+    .one .row .img-box,
+    .one .row .text-box{
+     float: none;
+     width: 100%;
+     text-align: center;
+    }
+
+    .features .box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .features{
+        margin-right: 6.8rem;
+
+    }
+
+    .showcase2 {
+        height: auto;
+        width: 100%;
+        text-align: center;
+        padding-right: 10rem;
+    }
+
+    .count{
+       text-align: center;
+       margin-bottom: 3rem;
+       width: 125%;
+       height: auto;
+       margin-left: -1rem;
+       margin-top: 1.02rem;
+    }
+
+     .COUNT-ITEMS1{
+        margin-top: 2rem;
+    }
+
+    /* .COUNT-ITEMS2{
+        margin-top: 1.02rem;
+    }
+
+    .COUNT-ITEMS3{
+        margin-top: 1.02rem;
+    }
+
+    .COUNT-ITEMS4{
+        margin-top: 1.02rem;
+    }  */
+
+    .cta-banner-left,
+    .cta-banner-right{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .cta-banner{
+        width: 100%;
+        height: auto;
+        margin-left: 1rem;
+    }
+
+    .btn-cta{
+        margin-top: 1.5rem;
+    }
+
+    .form-wrapper .company-adress{
+        float: none;
+        width: 100%;
+        height: auto;
+        margin-bottom: 5rem; 
+    }
+
+    .form-wrapper .form{
+        float: none;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .content-form{
+        width: 100%;
+        height: auto;
+    }
+
+    .umar{
+        margin-right: 10rem;
+    }
+ 
+    .one{
+        margin-right: 2.9rem;
+      }
+      
+}
+
+
+@media (min-width:385px) and (max-width:392px){
+    html{
+        font-size: 50%;
+    }
+
+     .navbar .list-items,
+     .navbar .logo{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+     }
+
+     .row{
+      height:auto;
+      width: 118%;
+      text-align:center;
+     }
+
+     .showcase{
+     height: auto; 
+        width: 100%;
+        text-align: center;
+        padding-right: 8.5rem;
+     }
+
+    .one .row .img-box,
+    .one .row .text-box{
+     float: none;
+     width: 100%;
+     text-align: center;
+    }
+
+    .features .box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .features{
+        margin-right: 6.8rem;
+
+    }
+
+    .showcase2 {
+        height: auto;
+        width: 100%;
+        text-align: center;
+        padding-right: 10rem;
+    }
+
+    .count{
+       text-align: center;
+       margin-bottom: 3rem;
+       width: 125%;
+       height: auto;
+       margin-left: -1rem;
+       margin-top: 1.02rem;
+    }
+
+     /* .COUNT-ITEMS1{
+        margin-top: 0.5rem;
+    } */
+
+    /* .COUNT-ITEMS2{
+        margin-top: 1.02rem;
+    }
+
+    .COUNT-ITEMS3{
+        margin-top: 1.02rem;
+    }
+
+    .COUNT-ITEMS4{
+        margin-top: 1.02rem;
+    }  */
+
+    .cta-banner-left,
+    .cta-banner-right{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .cta-banner{
+        width: 100%;
+        height: auto;
+        margin-left: 1rem;
+    }
+
+    .btn-cta{
+        margin-top: 1.5rem;
+    }
+
+    .form-wrapper .company-adress{
+        float: none;
+        width: 100%;
+        height: auto;
+        margin-bottom: 5rem; 
+    }
+
+    .form-wrapper .form{
+        float: none;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .content-form{
+        width: 100%;
+        height: auto;
+    }
+
+    .umar{
+        margin-right: 10rem;
+    }
+ 
+    .one{
+        margin-right: 2.9rem;
+      }
+      
+}
+
+
+@media (min-width:396px) and (max-width:427px){
+    html{
+        font-size: 50%;
+    }
+
+     .navbar .list-items,
+     .navbar .logo{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+     }
+
+     .row{
+      height:auto;
+      width: 118%;
+      text-align:center;
+     }
+
+     .showcase{
+     height: auto; 
+        width: 100%;
+        text-align: center;
+        padding-right: 9rem;
+     }
+
+    .one .row .img-box,
+    .one .row .text-box{
+     float: none;
+     width: 100%;
+     text-align: center;
+    }
+
+    .features .box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .features{
+        margin-right: 6.8rem;
+
+    }
+
+    .showcase2 {
+        height: auto;
+        width: 100%;
+        text-align: center;
+        padding-right: 10rem;
+    }
+
+    .count{
+       text-align: center;
+       margin-bottom: 3rem;
+       width: 125%;
+       height: auto;
+       margin-left: -1rem;
+       margin-top: 1.02rem;
+    }
+
+     .COUNT-ITEMS1{
+        margin-top: 4rem;
+    } 
+
+    /* .COUNT-ITEMS2{
+        margin-top: 1.02rem;
+    }
+
+    .COUNT-ITEMS3{
+        margin-top: 1.02rem;
+    }
+
+    .COUNT-ITEMS4{
+        margin-top: 1.02rem;
+    }  */
+
+    .cta-banner-left,
+    .cta-banner-right{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .cta-banner{
+        width: 100%;
+        height: auto;
+        margin-left: 1rem;
+    }
+
+    .btn-cta{
+        margin-top: 1.5rem;
+    }
+
+    .form-wrapper .company-adress{
+        float: none;
+        width: 100%;
+        height: auto;
+        margin-bottom: 5rem; 
+    }
+
+    .form-wrapper .form{
+        float: none;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .content-form{
+        width: 100%;
+        height: auto;
+    }
+
+    .umar{
+        margin-right: 10rem;
+    }
+ 
+    .one{
+        margin-right: 2.9rem;
+      }   
+}
+
+@media (min-width:393px) and (max-width:395px){
+    html{
+        font-size: 50%;
+    }
+
+     .navbar .list-items,
+     .navbar .logo{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+     }
+
+     .row{
+      height:auto;
+      width: 118%;
+      text-align:center;
+     }
+
+     .showcase{
+     height: auto; 
+        width: 100%;
+        text-align: center;
+        padding-right: 8.5rem;
+     }
+
+    .one .row .img-box,
+    .one .row .text-box{
+     float: none;
+     width: 100%;
+     text-align: center;
+    }
+
+    .features .box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .features{
+        margin-right: 6.8rem;
+
+    }
+
+    .showcase2 {
+        height: auto;
+        width: 100%;
+        text-align: center;
+        padding-right: 10rem;
+    }
+
+    .count{
+       text-align: center;
+       margin-bottom: 3rem;
+       width: 125%;
+       height: auto;
+       margin-left: -1rem;
+       margin-top: 1.02rem;
+    }
+
+     .COUNT-ITEMS1{
+        margin-top: 2rem;
+    } 
+
+    /* .COUNT-ITEMS2{
+        margin-top: 1.02rem;
+    }
+
+    .COUNT-ITEMS3{
+        margin-top: 1.02rem;
+    }
+
+    .COUNT-ITEMS4{
+        margin-top: 1.02rem;
+    }  */
+
+    .cta-banner-left,
+    .cta-banner-right{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .cta-banner{
+        width: 100%;
+        height: auto;
+        margin-left: 1rem;
+    }
+
+    .btn-cta{
+        margin-top: 1.5rem;
+    }
+
+    .form-wrapper .company-adress{
+        float: none;
+        width: 100%;
+        height: auto;
+        margin-bottom: 5rem; 
+    }
+
+    .form-wrapper .form{
+        float: none;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .content-form{
+        width: 100%;
+        height: auto;
+    }
+
+    .umar{
+        margin-right: 10rem;
+    }
+ 
+    .one{
+        margin-right: 2.9rem;
+      }
+      
+}
+
+@media (min-width:428px) and (max-width:450px){
+    html{
+        font-size: 50%;
+    }
+
+     .navbar .list-items,
+     .navbar .logo{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+     }
+
+     .row{
+      height:auto;
+      width: 118%;
+      text-align:center;
+     }
+
+     .showcase{
+     height: auto; 
+        width: 100%;
+        text-align: center;
+        padding-right: 9.5rem;
+     }
+
+    .one .row .img-box,
+    .one .row .text-box{
+     float: none;
+     width: 100%;
+     text-align: center;
+    }
+
+    .features .box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .features{
+        margin-right: 6.8rem;
+
+    }
+
+    .showcase2 {
+        height: auto;
+        width: 100%;
+        text-align: center;
+        padding-right: 10rem;
+    }
+
+    .count{
+       text-align: center;
+       margin-bottom: 3rem;
+       width: 125%;
+       height: auto;
+       margin-left: -1rem;
+       margin-top: 1.02rem;
+    }
+
+     .COUNT-ITEMS1{
+        margin-top: 5.9rem;
+    } 
+
+    /* .COUNT-ITEMS2{
+        margin-top: 1.02rem;
+    }
+
+    .COUNT-ITEMS3{
+        margin-top: 1.02rem;
+    }
+
+    .COUNT-ITEMS4{
+        margin-top: 1.02rem;
+    }  */
+
+    .cta-banner-left,
+    .cta-banner-right{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .cta-banner{
+        width: 100%;
+        height: auto;
+        margin-left: 1rem;
+    }
+
+    .btn-cta{
+        margin-top: 1.5rem;
+    }
+
+    .form-wrapper .company-adress{
+        float: none;
+        width: 100%;
+        height: auto;
+        margin-bottom: 5rem; 
+    }
+
+    .form-wrapper .form{
+        float: none;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .content-form{
+        width: 100%;
+        height: auto;
+    }
+
+    .umar{
+        margin-right: 10rem;
+    }
+ 
+    .one{
+        margin-right: 2.9rem;
+      }   
+}
+
+
+@media (min-width:450px) and (max-width:500px){
+    html{
+        font-size: 50%;
+    }
+
+     .navbar .list-items,
+     .navbar .logo{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+     }
+
+     .row{
+      height:auto;
+      width: 118%;
+      text-align:center;
+     }
+
+     .showcase{
+     height: auto; 
+        width: 100%;
+        text-align: center;
+        padding-right: 10.8rem;
+     }
+
+    .one .row .img-box,
+    .one .row .text-box{
+     float: none;
+     width: 100%;
+     text-align: center;
+    }
+
+    .features .box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .features{
+        margin-right: 6.8rem;
+
+    }
+
+    .showcase2 {
+        height: auto;
+        width: 100%;
+        text-align: center;
+        padding-right: 10rem;
+    }
+
+    .count{
+       text-align: center;
+       margin-bottom: 3rem;
+       width: 125%;
+       height: auto;
+       margin-left: -1rem;
+       margin-top: 1.02rem;
+       padding-right: 3rem;
+    }
+
+     .COUNT-ITEMS1{
+        margin-top: 5.9rem;
+    } 
+
+    /* .COUNT-ITEMS2{
+        margin-top: 1.02rem;
+    }
+
+    .COUNT-ITEMS3{
+        margin-top: 1.02rem;
+    }
+
+    .COUNT-ITEMS4{
+        margin-top: 1.02rem;
+    }  */
+
+    .cta-banner-left,
+    .cta-banner-right{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .cta-banner{
+        width: 100%;
+        height: auto;
+        margin-left: 1rem;
+    }
+
+    .btn-cta{
+        margin-top: 1.5rem;
+    }
+
+    .form-wrapper .company-adress{
+        float: none;
+        width: 100%;
+        height: auto;
+        margin-bottom: 5rem; 
+    }
+
+    .form-wrapper .form{
+        float: none;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .content-form{
+        width: 100%;
+        height: auto;
+    }
+
+    .umar{
+        margin-right: 10rem;
+    }
+ 
+    .one{
+        margin-right: 2.9rem;
+      }   
+}
+
+@media (min-width:501px) and (max-width:550px){
+    html{
+        font-size: 50%;
+    }
+
+     .navbar .list-items,
+     .navbar .logo{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+     }
+
+     .row{
+      height:auto;
+      max-width: 118%;
+      text-align:center;
+     }
+
+     .showcase{
+     height: auto; 
+     width: 100%;
+        text-align: center;
+        /* padding-right: 4 rem; */
+        /* margin-left: 15rem; */
+     }
+
+     .container{
+        padding-right: 4rem;
+     }
+     
+    .one .row .img-box,
+    .one .row .text-box{
+     float: none;
+     width: 100%;
+     text-align: center;
+    }
+
+    .features .box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .features{
+        margin-right: 8rem;
+
+    }
+
+    .showcase2 {
+        height: auto;
+        width: 100%;
+        text-align: center;
+        padding-right: 10rem;
+    }
+
+    .count{
+       text-align: center;
+       margin-bottom: 3rem;
+       width: 125%;
+       height: auto;
+       margin-left: -1rem;
+       margin-top: 1.05rem;
+       padding-right: 6rem;
+    }
+
+     .COUNT-ITEMS1{
+        margin-top: 5.8rem;
+    }
+
+    /* .COUNT-ITEMS2{
+        margin-top: 1.02rem;
+    }
+
+    .COUNT-ITEMS3{
+        margin-top: 1.02rem;
+    }
+
+    .COUNT-ITEMS4{
+        margin-top: 1.02rem;
+    }  */
+
+    .cta-banner-left,
+    .cta-banner-right{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .cta-banner{
+        width: 100%;
+        height: auto;
+        margin-left: 1rem;
+    }
+
+    .btn-cta{
+        margin-top: 1.5rem;
+    }
+
+    .form-wrapper .company-adress{
+        float: none;
+        width: 100%;
+        height: auto;
+        margin-bottom: 5rem; 
+    }
+
+    .form-wrapper .form{
+        float: none;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .content-form{
+        width: 100%;
+        height: auto;
+    }
+
+    .umar{
+        margin-right: 10rem;
+    }
+ 
+    .one{
+        margin-right: 2.9rem;
+        width: 94.2%;
+    }
+
+}
+@media (min-width:550px) and (max-width:617px){
+    html{
+        font-size: 50%;
+    }
+
+     .navbar .list-items,
+     .navbar .logo{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+     }
+
+     .row{
+      height:auto;
+      max-width: 118%;
+      text-align:center;
+     }
+
+     .showcase{
+     height: auto; 
+     width: 100%;
+        text-align: center;
+        /* padding-right: 4 rem; */
+        /* margin-left: 15rem; */
+     }
+
+     .container{
+        padding-right: 4rem;
+     }
+     
+    .one .row .img-box,
+    .one .row .text-box{
+     float: none;
+     width: 100%;
+     text-align: center;
+    }
+
+    .features .box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .features{
+        margin-right: 8rem;
+
+    }
+
+    .showcase2 {
+        height: auto;
+        width: 100%;
+        text-align: center;
+        padding-right: 10rem;
+    }
+
+    .count{
+       text-align: center;
+       margin-bottom: 3rem;
+       width: 125%;
+       height: auto;
+       margin-left: -1rem;
+       margin-top: 1.02rem;
+       padding-right: 3rem;
+    }
+
+     .COUNT-ITEMS1{
+        margin-top: 2rem;
+    }
+
+    /* .COUNT-ITEMS2{
+        margin-top: 1.02rem;
+    }
+
+    .COUNT-ITEMS3{
+        margin-top: 1.02rem;
+    }
+
+    .COUNT-ITEMS4{
+        margin-top: 1.02rem;
+    }  */
+
+    .cta-banner-left,
+    .cta-banner-right{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .cta-banner{
+        width: 100%;
+        height: auto;
+        margin-left: 1rem;
+    }
+
+    .btn-cta{
+        margin-top: 1.5rem;
+    }
+
+    .form-wrapper .company-adress{
+        float: none;
+        width: 100%;
+        height: auto;
+        margin-bottom: 5rem; 
+    }
+
+    .form-wrapper .form{
+        float: none;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .content-form{
+        width: 100%;
+        height: auto;
+    }
+
+    .umar{
+        margin-right: 10rem;
+    }
+ 
+    .one{
+        margin-right: 2.9rem;
+        width: 94.2%;
+    }
+
+}
+
+
+@media (min-width:618px) and (max-width:656px){
+    html{
+        font-size: 50%;
+    }
+
+     .navbar .list-items,
+     .navbar .logo{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+     }
+
+     .row{
+      height:auto;
+      max-width: 118%;
+      text-align:center;
+     }
+
+     .showcase{
+     height: auto; 
+     width: 100%;
+        text-align: center;
+        /* padding-right: 4 rem; */
+        /* margin-left: 15rem; */
+     }
+
+     .container{
+        padding-right: 4rem;
+     }
+     
+    .one .row .img-box,
+    .one .row .text-box{
+     float: none;
+     width: 100%;
+     text-align: center;
+    }
+
+    .features .box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .features{
+        margin-right: 8rem;
+
+    }
+
+    .showcase2 {
+        height: auto;
+        width: 100%;
+        text-align: center;
+        padding-right: 10rem;
+    }
+
+    .count{
+       text-align: center;
+       margin-bottom: 3rem;
+       width: 125%;
+       height: auto;
+       margin-left: -1rem;
+       margin-top: 1.02rem;
+       padding-right: 6rem;
+    }
+
+     .COUNT-ITEMS1{
+        margin-top: 4rem;
+    }
+
+    /* .COUNT-ITEMS2{
+        margin-top: 1.02rem;
+    }
+
+    .COUNT-ITEMS3{
+        margin-top: 1.02rem;
+    }
+
+    .COUNT-ITEMS4{
+        margin-top: 1.02rem;
+    }  */
+
+    .cta-banner-left,
+    .cta-banner-right{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .cta-banner{
+        width: 100%;
+        height: auto;
+        margin-left: 1rem;
+    }
+
+    .btn-cta{
+        margin-top: 1.5rem;
+    }
+
+    .form-wrapper .company-adress{
+        float: none;
+        width: 100%;
+        height: auto;
+        margin-bottom: 5rem; 
+    }
+
+    .form-wrapper .form{
+        float: none;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .content-form{
+        width: 100%;
+        height: auto;
+    }
+
+    .umar{
+        margin-right: 10rem;
+    }
+ 
+    .one{
+        margin-right: 2.9rem;
+        width: 94.2%;
+    }
+      
+}
+
+@media (min-width:657px) and (max-width:1200px){
+    html{
+        font-size: 50%;
+    }
+
+     .navbar .list-items,
+     .navbar .logo{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+     }
+
+     .row{
+      height:auto;
+      max-width: 118%;
+      text-align:center;
+     }
+
+     .showcase{
+     height: auto; 
+     width: 100%;
+        text-align: center;
+        /* padding-right: 4 rem; */
+        /* margin-left: 15rem; */
+     }
+
+     .container{
+        padding-right: 4rem;
+     }
+     
+    .one .row .img-box,
+    .one .row .text-box{
+     float: none;
+     width: 100%;
+     text-align: center;
+    }
+
+    .features .box{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .features{
+        margin-right: 8rem;
+
+    }
+
+    .showcase2 {
+        height: auto;
+        width: 100%;
+        text-align: center;
+        padding-right: 10rem;
+    }
+
+    .count{
+       text-align: center;
+       margin-bottom: 3rem;
+       width: 125%;
+       height: auto;
+       margin-left: -1rem;
+       margin-top: 1.02rem;
+       padding-right: 8rem;
+    }
+
+     .COUNT-ITEMS1{
+        margin-top: 2rem;
+    }
+
+    /* .COUNT-ITEMS2{
+        margin-top: 1.02rem;
+    }
+
+    .COUNT-ITEMS3{
+        margin-top: 1.02rem;
+    }
+
+    .COUNT-ITEMS4{
+        margin-top: 1.02rem;
+    }  */
+
+    .cta-banner-left,
+    .cta-banner-right{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .cta-banner{
+        width: 100%;
+        height: auto;
+        margin-left: 1rem;
+    }
+
+    .btn-cta{
+        margin-top: 1.5rem;
+    }
+
+    .form-wrapper .company-adress{
+        float: none;
+        width: 100%;
+        height: auto;
+        margin-bottom: 5rem; 
+    }
+
+    .form-wrapper .form{
+        float: none;
+        width: 100%;
+        height: auto;
+
+    }
+
+    .content-form{
+        width: 100%;
+        height: auto;
+    }
+
+    .umar{
+        margin-right: 10rem;
+    }
+ 
+    .one{
+        margin-right: 2.9rem;
+        width: 94.2%;
+    }
+
+}
